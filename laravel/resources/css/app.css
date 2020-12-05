@@ -1,0 +1,524 @@
+/********************CSS TEMP************************
+.top {
+    background: #4E5851;
+    height: 18.4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 4px;
+}
+.name {
+    width: 40%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    padding-left: 10px;
+}
+
+.header {
+    width: 9%;
+    float: right;
+    color : #FFFFFF;
+    font-family: Helvetica;
+    text-align: right;
+    text-decoration: none;
+}
+
+#home {
+    padding-right: 10px;
+}
+
+#margin {
+    padding-right: 10px;
+}
+
+footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#4E5851;
+}
+
+.cop {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Helvetica;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+
+}
+
+.cpp {
+    margin: auto;
+    text-decoration: none;
+}
+
+#copp {
+    margin-bottom: 0px;
+}
+
+****************************************************************************************/
+
+/*CSS NOAH*/
+
+input {
+    margin: center;
+    border;
+    border: 1px solid #000;
+    width: 75%;
+}
+
+textarea {
+    margin: center;
+    border;
+    border: 1px solid #000;
+    width: 98%;
+    border-radius: 8px;
+}
+
+#logo {
+    width: 100px;
+    position: absolute;
+    left: 2px;
+}
+
+
+#img1 {
+    width: 40%;
+    position: static;
+    bottom: 35px;
+
+
+}
+
+#img2 {
+    position: static;
+    bottom: 35px;
+
+    width: 40%;
+    
+}
+
+    
+}
+#logo {
+    width: 140px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+#compte {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    border: #33364d;
+    border: 2px;
+    border: solid;
+}  
+
+#menu {position: absolute;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    left: 30%;
+    top: 0px;
+    width: 40%;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33364d;
+}
+
+li {
+    display: inline-blocK;
+}
+
+
+#li1 {
+    display: inline-blocK;
+}
+
+#li1 #a1 {
+    border-radius: 8px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#li1 #a1:hover {
+    background-color: #109e98;
+}
+/*menu de droite*/
+.boutonmenuprincipal {
+    background-color: #33364d;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 20px;
+    }
+.boutonmenuprincipal:hover {
+    background-color: #109e98;
+    }
+.dropdown {
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    display: inline-block;
+    }
+.dropdown-child {
+    display: none;
+    background-color: #33364d;
+    min-width: 50px;
+    border-radius: 8px;
+    }
+.dropdown-child a {
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    }
+.dropdown:hover .dropdown-child {
+    display: block;
+    }
+.dropdown-child:hover {
+        background-color: #109e98;
+    }
+
+.logo2 {
+    
+    display: flex;
+    align-items: center;
+    margin : 0 auto;
+    text-align: center;
+    margin: auto;
+}
+
+.logo3 {
+    
+    display: flex;
+    align-items: center;
+    margin : 0 auto;
+    text-align: center;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    
+ 
+}
+
+a#aimg1 {
+    margin-left: 30%;
+    width: 20%;
+}
+
+a#aimg2 {
+    padding-left: 0px;
+    width: 20%;
+    
+}
+
+/*CSS AYLAN*/
+/********CSS LOGIN RESET REGISTER **********/
+
+body {
+    width: 75%;
+    margin: auto;
+    font-family: Helvetica;
+    color: #FFFFFF;
+    background-image: url(iphonebg.jpg);
+   
+    
+}
+
+fieldset {
+    
+    padding : 5%;
+    border-radius: 8px;
+    border: 2px solid;
+    width: 30%;
+    margin: auto;
+    background-color: rgba(51, 54, 77, 0.75);
+}
+
+input {
+    height : 25px;
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+#submit {
+    height : 30px;
+    width: 20%;
+    background: #109e92;
+    border: none;
+    border-radius: 8px;
+    font: 16px;
+    font-family: Helvetica;
+    color: #FFFFFF;
+    margin-top: 8%;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding-top: 5px;
+    margin-top: 8%;
+    background: #33364d;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#reset {
+    padding-right: 8%;
+    font-family: Helvetica;
+    color: #FFFFFF;
+}
+
+.footer2 {
+    
+    position: absolute;
+    bottom: 0;
+    overflow: auto;
+    
+}
+/******** CSS FIN DE LOGIN REGISTER RESET ***************/
+
+/***************CATALOGUE***************/
+
+.bodycenter {
+    padding-top: 50px;
+
+}
+
+img {
+	width: 100%;
+    height: auto;
+}
+
+td {
+    width: 0%;
+    border: none;
+    border-radius: 8px;
+    padding: 0px;
+
+    color:#4E5851 ;
+    background:rgb(51, 54, 77);
+    background-color: rgba(51, 54, 77, 0.5);
+    
+}
+
+a.buttoncata {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+ 
+
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(51, 54, 77, 0);
+    border-radius: 8px;
+    margin-top : 0px;
+    opacity: 1;
+    
+}
+
+p {
+    
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+h2 {
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.butdetail {
+    height: 30px;
+    background: #33364d;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.butachat {
+    height: 30px;
+    background: #33364d;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.butachat:hover {
+    background-color: #109e98;
+}
+
+.butdetail:hover {
+    background-color: #109e98;
+}
+
+img {
+    width: 75%;
+}
+
+#pencil {
+    width: 94%;
+}
+
+#coque {
+	width: 81%;
+}
+
+#magesafe {
+    width: 81%;
+}
+
+button {
+    border-radius: 8px;
+}
+
+/***************************PRODUIT.HTML**************************/
+
+p {
+    color: #FFFFFF;
+}
+
+.tabproduit {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.descprod {
+    margin: 5%;
+}
+
+.listprod {
+    color: #FFFFFF;
+}
+
+.imgprod {
+    width: 100%;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.produitopac {
+    background-color: rgba(51, 54, 77, 0.75);
+    color: #FFFFFF;
+}
+
+#opac {
+    background-color: rgba(51, 54, 77, rgba(51, 54, 77, 0.75));
+    padding: 0px;
+    margin: 0px;
+}
+
+.prixtab {
+    height: max-content;
+    border: none;
+}
+
+.borderprod {
+    border-collapse: collapse;
+    border: 0;
+}
+
+.borderprod2 {
+    padding: 0;
+}
+
+.produittitle {
+    margin-left: 1%;
+}
+
+
+/********************************************************/
+/*************PANIER HTML********************************/
+
+
+#paniertable {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+#produit {
+    width: 50%;
+    opacity: 0.75;
+}
+
+.paniertab {
+    background-color: rgba(51, 54, 77, 0.75);
+    color: #FFFFFF;
+    font-size: larger;
+    padding: 1%;
+}
+
+input#file-upload-button {
+
+}
+
+#imageadmin {
+    background-color: #FFFFFF;
+}
+
+.picpre {
+    width: 50%;
+}
+
+#picpre2 {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#picpre3 {
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/**********************************************************************/
+/*******************************NAV BAR********************************/
+
+
+.navradius {
+    background: #33364d;
+}
